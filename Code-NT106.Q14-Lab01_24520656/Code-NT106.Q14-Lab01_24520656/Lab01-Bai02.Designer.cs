@@ -35,9 +35,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.buttonTim = new System.Windows.Forms.Button();
+            this.buttonXoa = new System.Windows.Forms.Button();
+            this.buttonThoat = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -53,7 +53,7 @@
             this.label1.Size = new System.Drawing.Size(194, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "TÌM MIN, MAX";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+
             // 
             // label2
             // 
@@ -64,7 +64,7 @@
             this.label2.Size = new System.Drawing.Size(118, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Số thứ nhất:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            
             // 
             // label3
             // 
@@ -75,7 +75,7 @@
             this.label3.Size = new System.Drawing.Size(106, 25);
             this.label3.TabIndex = 2;
             this.label3.Text = "Số thứ hai:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            
             // 
             // label4
             // 
@@ -94,7 +94,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(188, 30);
             this.textBox1.TabIndex = 4;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            
             // 
             // textBox2
             // 
@@ -111,40 +111,40 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(188, 30);
             this.textBox3.TabIndex = 6;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+           
             // 
-            // button1
+            // buttonTim
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.Location = new System.Drawing.Point(51, 315);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 46);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Tìm";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.buttonTim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.buttonTim.Location = new System.Drawing.Point(51, 315);
+            this.buttonTim.Name = "buttonTim";
+            this.buttonTim.Size = new System.Drawing.Size(79, 46);
+            this.buttonTim.TabIndex = 7;
+            this.buttonTim.Text = "Tìm";
+            this.buttonTim.UseVisualStyleBackColor = true;
+            this.buttonTim.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // buttonXoa
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button2.Location = new System.Drawing.Point(196, 315);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(79, 46);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Xóa";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.buttonXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.buttonXoa.Location = new System.Drawing.Point(196, 315);
+            this.buttonXoa.Name = "buttonXoa";
+            this.buttonXoa.Size = new System.Drawing.Size(79, 46);
+            this.buttonXoa.TabIndex = 8;
+            this.buttonXoa.Text = "Xóa";
+            this.buttonXoa.UseVisualStyleBackColor = true;
+            this.buttonXoa.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // buttonThoat
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button3.Location = new System.Drawing.Point(337, 315);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(79, 46);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Thoát";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.buttonThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.buttonThoat.Location = new System.Drawing.Point(337, 315);
+            this.buttonThoat.Name = "buttonThoat";
+            this.buttonThoat.Size = new System.Drawing.Size(79, 46);
+            this.buttonThoat.TabIndex = 9;
+            this.buttonThoat.Text = "Thoát";
+            this.buttonThoat.UseVisualStyleBackColor = true;
+            this.buttonThoat.Click += new System.EventHandler(this.button3_Click);
             // 
             // label5
             // 
@@ -155,7 +155,7 @@
             this.label5.Size = new System.Drawing.Size(117, 25);
             this.label5.TabIndex = 10;
             this.label5.Text = "Số lớn nhất:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+           
             // 
             // label6
             // 
@@ -166,7 +166,7 @@
             this.label6.Size = new System.Drawing.Size(124, 25);
             this.label6.TabIndex = 11;
             this.label6.Text = "Số nhỏ nhất:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+         
             // 
             // textBox5
             // 
@@ -175,7 +175,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(188, 30);
             this.textBox5.TabIndex = 13;
-            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
+          
             // 
             // textBox4
             // 
@@ -184,20 +184,21 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(188, 30);
             this.textBox4.TabIndex = 14;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged_1);
+           
             // 
             // Lab01_Bai02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Bisque;
             this.ClientSize = new System.Drawing.Size(484, 509);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonThoat);
+            this.Controls.Add(this.buttonXoa);
+            this.Controls.Add(this.buttonTim);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -207,7 +208,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Lab01_Bai02";
             this.Text = "Lab01_Bai02";
-            this.Load += new System.EventHandler(this.Lab01_Bai02_Load);
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -222,9 +223,9 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button buttonTim;
+        private System.Windows.Forms.Button buttonXoa;
+        private System.Windows.Forms.Button buttonThoat;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox5;

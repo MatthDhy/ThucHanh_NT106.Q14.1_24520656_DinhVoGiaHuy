@@ -40,7 +40,7 @@ namespace Code_NT106.Q14_Lab01_24520656
             }
      
             sum = num1 + num2;
-            label4.Text = "Kết quả: " + sum.ToString();
+            textBox1.Text = sum.ToString();
             
         }
 
@@ -70,6 +70,11 @@ namespace Code_NT106.Q14_Lab01_24520656
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -30,14 +30,14 @@
         {
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.Button_Bai1 = new System.Windows.Forms.Button();
+            this.Button_Bai2 = new System.Windows.Forms.Button();
+            this.Button_Bai3 = new System.Windows.Forms.Button();
+            this.Button_Bai4 = new System.Windows.Forms.Button();
+            this.Button_Bai5 = new System.Windows.Forms.Button();
+            this.Button_Bai6 = new System.Windows.Forms.Button();
+            this.Button_Bai7 = new System.Windows.Forms.Button();
+            this.Button_Bai8 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -51,7 +51,7 @@
             this.label3.Size = new System.Drawing.Size(344, 33);
             this.label3.TabIndex = 0;
             this.label3.Text = "BÀI TẬP THỰC HÀNH 01";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Click += new System.EventHandler(this.Button_Bai3_Click);
             // 
             // label4
             // 
@@ -64,107 +64,111 @@
             this.label4.Size = new System.Drawing.Size(485, 25);
             this.label4.TabIndex = 1;
             this.label4.Text = "Sinh viên thực hiện: Đinh Võ Gia Huy - 24520656";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label4.Click += new System.EventHandler(this.Button_Bai4_Click);
             // 
-            // button1
+            // Button_Bai1
             // 
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(137, 211);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(72, 47);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Bài 1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Button_Bai1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Bai1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Button_Bai1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Button_Bai1.Location = new System.Drawing.Point(137, 211);
+            this.Button_Bai1.Name = "Button_Bai1";
+            this.Button_Bai1.Size = new System.Drawing.Size(72, 47);
+            this.Button_Bai1.TabIndex = 2;
+            this.Button_Bai1.Text = "Bài 1";
+            this.Button_Bai1.UseVisualStyleBackColor = true;
+            this.Button_Bai1.Click += new System.EventHandler(this.Button_Bai1_Click);
             // 
-            // button2
+            // Button_Bai2
             // 
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(137, 277);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(72, 47);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Bài 2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.Button_Bai2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Bai2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Button_Bai2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Button_Bai2.Location = new System.Drawing.Point(137, 277);
+            this.Button_Bai2.Name = "Button_Bai2";
+            this.Button_Bai2.Size = new System.Drawing.Size(72, 47);
+            this.Button_Bai2.TabIndex = 3;
+            this.Button_Bai2.Text = "Bài 2";
+            this.Button_Bai2.UseVisualStyleBackColor = true;
+            this.Button_Bai2.Click += new System.EventHandler(this.Button_Bai2_Click);
             // 
-            // button3
+            // Button_Bai3
             // 
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button3.Location = new System.Drawing.Point(137, 346);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(72, 47);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Bài 3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Button_Bai3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Bai3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Button_Bai3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Button_Bai3.Location = new System.Drawing.Point(137, 346);
+            this.Button_Bai3.Name = "Button_Bai3";
+            this.Button_Bai3.Size = new System.Drawing.Size(72, 47);
+            this.Button_Bai3.TabIndex = 4;
+            this.Button_Bai3.Text = "Bài 3";
+            this.Button_Bai3.UseVisualStyleBackColor = true;
+            this.Button_Bai3.Click += new System.EventHandler(this.Button_Bai3_Click);
             // 
-            // button4
+            // Button_Bai4
             // 
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button4.Location = new System.Drawing.Point(137, 418);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(72, 47);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Bài 4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.Button_Bai4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Bai4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Button_Bai4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Button_Bai4.Location = new System.Drawing.Point(137, 418);
+            this.Button_Bai4.Name = "Button_Bai4";
+            this.Button_Bai4.Size = new System.Drawing.Size(72, 47);
+            this.Button_Bai4.TabIndex = 5;
+            this.Button_Bai4.Text = "Bài 4";
+            this.Button_Bai4.UseVisualStyleBackColor = true;
+            this.Button_Bai4.Click += new System.EventHandler(this.Button_Bai4_Click);
             // 
-            // button5
+            // Button_Bai5
             // 
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button5.Location = new System.Drawing.Point(338, 211);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(72, 47);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Bài 5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.Button_Bai5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Bai5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Button_Bai5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Button_Bai5.Location = new System.Drawing.Point(338, 211);
+            this.Button_Bai5.Name = "Button_Bai5";
+            this.Button_Bai5.Size = new System.Drawing.Size(72, 47);
+            this.Button_Bai5.TabIndex = 6;
+            this.Button_Bai5.Text = "Bài 5";
+            this.Button_Bai5.UseVisualStyleBackColor = true;
+            this.Button_Bai5.Click += new System.EventHandler(this.Button_Bai5_Click);
             // 
-            // button6
+            // Button_Bai6
             // 
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button6.Location = new System.Drawing.Point(338, 277);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(72, 47);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Bài 6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.Button_Bai6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Bai6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Button_Bai6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Button_Bai6.Location = new System.Drawing.Point(338, 277);
+            this.Button_Bai6.Name = "Button_Bai6";
+            this.Button_Bai6.Size = new System.Drawing.Size(72, 47);
+            this.Button_Bai6.TabIndex = 7;
+            this.Button_Bai6.Text = "Bài 6";
+            this.Button_Bai6.UseVisualStyleBackColor = true;
+            
             // 
-            // button7
+            // Button_Bai7
             // 
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button7.Location = new System.Drawing.Point(338, 346);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(72, 47);
-            this.button7.TabIndex = 8;
-            this.button7.Text = "Bài 7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.Button_Bai7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Bai7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Button_Bai7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Button_Bai7.Location = new System.Drawing.Point(338, 346);
+            this.Button_Bai7.Name = "Button_Bai7";
+            this.Button_Bai7.Size = new System.Drawing.Size(72, 47);
+            this.Button_Bai7.TabIndex = 8;
+            this.Button_Bai7.Text = "Bài 7";
+            this.Button_Bai7.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // Button_Bai8
             // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.button8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button8.Location = new System.Drawing.Point(338, 418);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(72, 47);
-            this.button8.TabIndex = 9;
-            this.button8.Text = "Bài 8";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.Button_Bai8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Button_Bai8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.Button_Bai8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Button_Bai8.Location = new System.Drawing.Point(338, 418);
+            this.Button_Bai8.Name = "Button_Bai8";
+            this.Button_Bai8.Size = new System.Drawing.Size(72, 47);
+            this.Button_Bai8.TabIndex = 9;
+            this.Button_Bai8.Text = "Bài 8";
+            this.Button_Bai8.UseVisualStyleBackColor = true;
+            this.Button_Bai8.Click += new System.EventHandler(this.Button_Bai8_Click);
             // 
             // label5
             // 
@@ -180,17 +184,17 @@
             // 
             // Lab01
             // 
-            this.BackColor = System.Drawing.Color.PeachPuff;
-            this.ClientSize = new System.Drawing.Size(614, 553);
+            this.BackColor = System.Drawing.Color.Bisque;
+            this.ClientSize = new System.Drawing.Size(590, 553);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Button_Bai8);
+            this.Controls.Add(this.Button_Bai7);
+            this.Controls.Add(this.Button_Bai6);
+            this.Controls.Add(this.Button_Bai5);
+            this.Controls.Add(this.Button_Bai4);
+            this.Controls.Add(this.Button_Bai3);
+            this.Controls.Add(this.Button_Bai2);
+            this.Controls.Add(this.Button_Bai1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Name = "Lab01";
@@ -207,14 +211,14 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button Button_Bai1;
+        private System.Windows.Forms.Button Button_Bai2;
+        private System.Windows.Forms.Button Button_Bai3;
+        private System.Windows.Forms.Button Button_Bai4;
+        private System.Windows.Forms.Button Button_Bai5;
+        private System.Windows.Forms.Button Button_Bai6;
+        private System.Windows.Forms.Button Button_Bai7;
+        private System.Windows.Forms.Button Button_Bai8;
         private System.Windows.Forms.Label label5;
     }
 }

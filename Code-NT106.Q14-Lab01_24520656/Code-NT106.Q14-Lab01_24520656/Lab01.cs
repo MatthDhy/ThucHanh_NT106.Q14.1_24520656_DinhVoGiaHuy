@@ -17,12 +17,7 @@ namespace Code_NT106.Q14_Lab01_24520656
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void Button_Bai1_Click(object sender, EventArgs e)
         {
             Lab01_Bai01 Bai01 = new Lab01_Bai01();
             this.Hide();
@@ -30,7 +25,7 @@ namespace Code_NT106.Q14_Lab01_24520656
             this.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button_Bai2_Click(object sender, EventArgs e)
         {
             Lab01_Bai02 Bai02 = new Lab01_Bai02();
             this.Hide();
@@ -38,13 +33,33 @@ namespace Code_NT106.Q14_Lab01_24520656
             this.Show();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Button_Bai3_Click(object sender, EventArgs e)
+        {
+            Lab01_Bai03 Bai03 = new Lab01_Bai03();
+            this.Hide();
+            Bai03.ShowDialog();
+            this.Show();
+        }
+        private void Button_Bai4_Click(object sender, EventArgs e)
         {
 
         }
-        
+        private void Button_Bai5_Click(object sender, EventArgs e)
+        {
+            Lab01_Bai05 Bai05 = new Lab01_Bai05();
+            this.Hide();
+            Bai05.ShowDialog();
+            this.Show();
+        }
+        private void Button_Bai6_Click(object sender, EventArgs e)
+        {
 
-        private void button8_Click(object sender, EventArgs e)
+        }
+        private void Button_Bai7_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Button_Bai8_Click(object sender, EventArgs e)
         {
 
         }
@@ -59,9 +74,5 @@ namespace Code_NT106.Q14_Lab01_24520656
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
