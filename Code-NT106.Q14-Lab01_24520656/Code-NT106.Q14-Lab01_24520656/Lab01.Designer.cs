@@ -143,7 +143,7 @@
             this.Button_Bai6.TabIndex = 7;
             this.Button_Bai6.Text = "Bài 6";
             this.Button_Bai6.UseVisualStyleBackColor = true;
-            
+            this.Button_Bai6.Click += new System.EventHandler(this.Button_Bai6_Click);
             // 
             // Button_Bai7
             // 
@@ -156,6 +156,7 @@
             this.Button_Bai7.TabIndex = 8;
             this.Button_Bai7.Text = "Bài 7";
             this.Button_Bai7.UseVisualStyleBackColor = true;
+            this.Button_Bai7.Click += new System.EventHandler(this.Button_Bai7_Click);
             // 
             // Button_Bai8
             // 
@@ -180,7 +181,7 @@
             this.label5.Size = new System.Drawing.Size(169, 25);
             this.label5.TabIndex = 10;
             this.label5.Text = "Danh sách bài tập";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            
             // 
             // Lab01
             // 
@@ -199,7 +200,7 @@
             this.Controls.Add(this.label3);
             this.Name = "Lab01";
             this.Text = "Lab01";
-            this.Load += new System.EventHandler(this.Lab01_Load);
+     
             this.ResumeLayout(false);
             this.PerformLayout();
 

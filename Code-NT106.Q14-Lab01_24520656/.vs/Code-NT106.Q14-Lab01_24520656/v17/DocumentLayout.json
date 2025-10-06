@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|d:\\hk3\\ltmang\\th\\lab01\\code-nt106.q14-lab01_24520656\\code-nt106.q14-lab01_24520656\\lab01-bai06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|solutionrelative:code-nt106.q14-lab01_24520656\\lab01-bai06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|d:\\hk3\\ltmang\\th\\lab01\\code-nt106.q14-lab01_24520656\\code-nt106.q14-lab01_24520656\\lab01-bai06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|solutionrelative:code-nt106.q14-lab01_24520656\\lab01-bai06.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\code-nt106.q14-lab01_24520656\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|solutionrelative:code-nt106.q14-lab01_24520656\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|d:\\hk3\\ltmang\\th\\lab01\\code-nt106.q14-lab01_24520656\\code-nt106.q14-lab01_24520656\\lab01-bai08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|solutionrelative:code-nt106.q14-lab01_24520656\\lab01-bai08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\code-nt106.q14-lab01_24520656\\lab01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|solutionrelative:code-nt106.q14-lab01_24520656\\lab01.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|d:\\hk3\\ltmang\\th\\lab01\\code-nt106.q14-lab01_24520656\\code-nt106.q14-lab01_24520656\\lab01-bai08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|solutionrelative:code-nt106.q14-lab01_24520656\\lab01-bai08.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|d:\\hk3\\ltmang\\th\\lab01\\code-nt106.q14-lab01_24520656\\code-nt106.q14-lab01_24520656\\lab01-bai08.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|solutionrelative:code-nt106.q14-lab01_24520656\\lab01-bai08.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\code-nt106.q14-lab01_24520656\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF5346F2-E3F5-4B00-A992-1FF6771FE4F6}|Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656.csproj|solutionrelative:code-nt106.q14-lab01_24520656\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,36 +30,62 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Lab01-Bai06.cs",
-              "DocumentMoniker": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01-Bai06.cs",
-              "RelativeDocumentMoniker": "Code-NT106.Q14-Lab01_24520656\\Lab01-Bai06.cs",
-              "ToolTip": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01-Bai06.cs",
-              "RelativeToolTip": "Code-NT106.Q14-Lab01_24520656\\Lab01-Bai06.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAArwBUAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Lab01-Bai08.Designer.cs",
+              "DocumentMoniker": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.Designer.cs",
+              "RelativeDocumentMoniker": "Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.Designer.cs",
+              "ToolTip": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.Designer.cs",
+              "RelativeToolTip": "Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.Designer.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAjwJIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T08:11:02.881Z",
+              "WhenOpened": "2025-10-06T15:24:44.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Lab01-Bai06.cs [Design]",
-              "DocumentMoniker": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01-Bai06.cs",
-              "RelativeDocumentMoniker": "Code-NT106.Q14-Lab01_24520656\\Lab01-Bai06.cs",
-              "ToolTip": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01-Bai06.cs [Design]",
-              "RelativeToolTip": "Code-NT106.Q14-Lab01_24520656\\Lab01-Bai06.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "Lab01-Bai08.cs",
+              "DocumentMoniker": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.cs",
+              "RelativeDocumentMoniker": "Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.cs",
+              "ToolTip": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.cs",
+              "RelativeToolTip": "Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T08:01:09.246Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-06T15:24:37.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Lab01-Bai08.cs [Design]",
+              "DocumentMoniker": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.cs",
+              "RelativeDocumentMoniker": "Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.cs",
+              "ToolTip": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.cs [Design]",
+              "RelativeToolTip": "Code-NT106.Q14-Lab01_24520656\\Lab01-Bai08.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T15:19:32.308Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lab01.cs",
+              "DocumentMoniker": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01.cs",
+              "RelativeDocumentMoniker": "Code-NT106.Q14-Lab01_24520656\\Lab01.cs",
+              "ToolTip": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01.cs",
+              "RelativeToolTip": "Code-NT106.Q14-Lab01_24520656\\Lab01.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAmwEsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T13:47:14.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Program.cs",
               "RelativeDocumentMoniker": "Code-NT106.Q14-Lab01_24520656\\Program.cs",
@@ -64,19 +94,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T07:53:55.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Lab01.cs",
-              "DocumentMoniker": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01.cs",
-              "RelativeDocumentMoniker": "Code-NT106.Q14-Lab01_24520656\\Lab01.cs",
-              "ToolTip": "D:\\HK3\\LTMang\\TH\\LAB01\\Code-NT106.Q14-Lab01_24520656\\Code-NT106.Q14-Lab01_24520656\\Lab01.cs",
-              "RelativeToolTip": "Code-NT106.Q14-Lab01_24520656\\Lab01.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T13:47:14.141Z",
               "EditorCaption": ""
             }
           ]
