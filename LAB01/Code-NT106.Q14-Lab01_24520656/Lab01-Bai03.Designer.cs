@@ -36,6 +36,12 @@
             this.buttonXoa = new System.Windows.Forms.Button();
             this.buttonThoat = new System.Windows.Forms.Button();
             this.TieuDe = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.labeltieude = new System.Windows.Forms.Label();
+            this.textBoxNhapBaiNC = new System.Windows.Forms.TextBox();
+            this.buttonDocNC = new System.Windows.Forms.Button();
+            this.textBoxKetQuaNC = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // labelNhap
@@ -120,10 +126,74 @@
             this.TieuDe.TabIndex = 7;
             this.TieuDe.Text = "ĐỌC SỐ";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 16);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "label2";
+            // 
+            // labeltieude
+            // 
+            this.labeltieude.AutoSize = true;
+            this.labeltieude.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.labeltieude.Location = new System.Drawing.Point(29, 351);
+            this.labeltieude.Name = "labeltieude";
+            this.labeltieude.Size = new System.Drawing.Size(331, 25);
+            this.labeltieude.TabIndex = 10;
+            this.labeltieude.Text = "Bài nâng cao: Nhập số nguyên bất kì";
+            // 
+            // textBoxNhapBaiNC
+            // 
+            this.textBoxNhapBaiNC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBoxNhapBaiNC.Location = new System.Drawing.Point(157, 379);
+            this.textBoxNhapBaiNC.Name = "textBoxNhapBaiNC";
+            this.textBoxNhapBaiNC.Size = new System.Drawing.Size(232, 30);
+            this.textBoxNhapBaiNC.TabIndex = 11;
+            // 
+            // buttonDocNC
+            // 
+            this.buttonDocNC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.buttonDocNC.Location = new System.Drawing.Point(417, 355);
+            this.buttonDocNC.Name = "buttonDocNC";
+            this.buttonDocNC.Size = new System.Drawing.Size(83, 54);
+            this.buttonDocNC.TabIndex = 12;
+            this.buttonDocNC.Text = "Đọc";
+            this.buttonDocNC.UseVisualStyleBackColor = true;
+            this.buttonDocNC.Click += new System.EventHandler(this.buttonDocNC_Click);
+            // 
+            // textBoxKetQuaNC
+            // 
+            this.textBoxKetQuaNC.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.textBoxKetQuaNC.Enabled = false;
+            this.textBoxKetQuaNC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBoxKetQuaNC.Location = new System.Drawing.Point(34, 436);
+            this.textBoxKetQuaNC.Name = "textBoxKetQuaNC";
+            this.textBoxKetQuaNC.Size = new System.Drawing.Size(466, 30);
+            this.textBoxKetQuaNC.TabIndex = 14;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label3.Location = new System.Drawing.Point(29, 408);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(85, 25);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Kết Quả";
+            // 
             // Lab01_Bai03
             // 
             this.BackColor = System.Drawing.Color.Bisque;
             this.ClientSize = new System.Drawing.Size(541, 498);
+            this.Controls.Add(this.textBoxKetQuaNC);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.buttonDocNC);
+            this.Controls.Add(this.textBoxNhapBaiNC);
+            this.Controls.Add(this.labeltieude);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.TieuDe);
             this.Controls.Add(this.buttonThoat);
             this.Controls.Add(this.buttonXoa);
@@ -149,5 +219,11 @@
         private System.Windows.Forms.Button buttonXoa;
         private System.Windows.Forms.Button buttonThoat;
         private System.Windows.Forms.Label TieuDe;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labeltieude;
+        private System.Windows.Forms.TextBox textBoxNhapBaiNC;
+        private System.Windows.Forms.Button buttonDocNC;
+        private System.Windows.Forms.TextBox textBoxKetQuaNC;
+        private System.Windows.Forms.Label label3;
     }
 }
