@@ -33,8 +33,8 @@
             this.textBoxNhap = new System.Windows.Forms.TextBox();
             this.buttonXuly = new System.Windows.Forms.Button();
             this.textBoxKetQua = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.labelKQ = new System.Windows.Forms.Label();
+            this.buttonXoa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -68,7 +68,7 @@
             // buttonXuly
             // 
             this.buttonXuly.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.buttonXuly.Location = new System.Drawing.Point(455, 191);
+            this.buttonXuly.Location = new System.Drawing.Point(354, 191);
             this.buttonXuly.Name = "buttonXuly";
             this.buttonXuly.Size = new System.Drawing.Size(86, 47);
             this.buttonXuly.TabIndex = 3;
@@ -87,16 +87,6 @@
             this.textBoxKetQua.Size = new System.Drawing.Size(502, 258);
             this.textBoxKetQua.TabIndex = 4;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "label2";
-           
-            // 
             // labelKQ
             // 
             this.labelKQ.AutoSize = true;
@@ -107,14 +97,25 @@
             this.labelKQ.TabIndex = 6;
             this.labelKQ.Text = "Kết Quả Trả Về";
             // 
+            // buttonXoa
+            // 
+            this.buttonXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.buttonXoa.Location = new System.Drawing.Point(455, 191);
+            this.buttonXoa.Name = "buttonXoa";
+            this.buttonXoa.Size = new System.Drawing.Size(86, 47);
+            this.buttonXoa.TabIndex = 7;
+            this.buttonXoa.Text = "Xóa";
+            this.buttonXoa.UseVisualStyleBackColor = true;
+            this.buttonXoa.Click += new System.EventHandler(this.buttonXoa_Click);
+            // 
             // Lab01_Bai07
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
             this.ClientSize = new System.Drawing.Size(574, 546);
+            this.Controls.Add(this.buttonXoa);
             this.Controls.Add(this.labelKQ);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxKetQua);
             this.Controls.Add(this.buttonXuly);
             this.Controls.Add(this.textBoxNhap);
@@ -134,7 +135,7 @@
         private System.Windows.Forms.TextBox textBoxNhap;
         private System.Windows.Forms.Button buttonXuly;
         private System.Windows.Forms.TextBox textBoxKetQua;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelKQ;
+        private System.Windows.Forms.Button buttonXoa;
     }
 }

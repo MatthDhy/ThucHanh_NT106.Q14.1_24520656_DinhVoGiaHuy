@@ -34,6 +34,7 @@
             this.textBoxKetQua = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.buttonTim = new System.Windows.Forms.Button();
+            this.buttonXoa = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tieude
@@ -64,7 +65,6 @@
             this.textBoxNhap.Name = "textBoxNhap";
             this.textBoxNhap.Size = new System.Drawing.Size(196, 30);
             this.textBoxNhap.TabIndex = 2;
-           
             // 
             // textBoxKetQua
             // 
@@ -91,7 +91,7 @@
             // 
             this.buttonTim.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.buttonTim.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.buttonTim.Location = new System.Drawing.Point(435, 279);
+            this.buttonTim.Location = new System.Drawing.Point(320, 279);
             this.buttonTim.Name = "buttonTim";
             this.buttonTim.Size = new System.Drawing.Size(81, 48);
             this.buttonTim.TabIndex = 5;
@@ -99,12 +99,25 @@
             this.buttonTim.UseVisualStyleBackColor = true;
             this.buttonTim.Click += new System.EventHandler(this.buttonTim_Click);
             // 
+            // buttonXoa
+            // 
+            this.buttonXoa.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.buttonXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.buttonXoa.Location = new System.Drawing.Point(435, 279);
+            this.buttonXoa.Name = "buttonXoa";
+            this.buttonXoa.Size = new System.Drawing.Size(81, 48);
+            this.buttonXoa.TabIndex = 6;
+            this.buttonXoa.Text = "Xóa";
+            this.buttonXoa.UseVisualStyleBackColor = true;
+            this.buttonXoa.Click += new System.EventHandler(this.buttonXoa_Click);
+            // 
             // Lab01_Bai06
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Bisque;
             this.ClientSize = new System.Drawing.Size(688, 566);
+            this.Controls.Add(this.buttonXoa);
             this.Controls.Add(this.buttonTim);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxKetQua);
@@ -126,5 +139,6 @@
         private System.Windows.Forms.TextBox textBoxKetQua;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonTim;
+        private System.Windows.Forms.Button buttonXoa;
     }
 }

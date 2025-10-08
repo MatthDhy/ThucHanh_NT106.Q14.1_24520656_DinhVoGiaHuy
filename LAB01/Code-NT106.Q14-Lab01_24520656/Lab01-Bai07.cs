@@ -89,6 +89,10 @@ namespace Code_NT106.Q14_Lab01_24520656
             textBoxKetQua.Text = result.ToString();
         }
 
-        
+        private void buttonXoa_Click(object sender, EventArgs e)
+        {
+            textBoxNhap.Clear();
+            textBoxKetQua.Clear();
+        }
     }
 }
