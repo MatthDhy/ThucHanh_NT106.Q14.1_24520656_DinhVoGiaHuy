@@ -22,7 +22,7 @@ namespace Code_NT106.Q14_1_Lab02_24520656
         private void btnDocFile_Click(object sender, EventArgs e)
         {
             try {
-                using (StreamReader reader = new StreamReader("D:\\HK3\\LTMang\\TH\\LAB\\LAB02\\input1.txt"))
+                using (StreamReader reader = new StreamReader("input1.txt"))
                 richTextBoxKQ.Text = reader.ReadToEnd();
                 MessageBox.Show("Đọc File thành công!");
             }
