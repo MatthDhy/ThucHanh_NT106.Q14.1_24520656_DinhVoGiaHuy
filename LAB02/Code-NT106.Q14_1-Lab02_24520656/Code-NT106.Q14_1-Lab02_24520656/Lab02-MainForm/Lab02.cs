@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Code_NT106.Q14_1_Lab02_24520656
+{
+    public partial class Lab02 : Form
+    {
+        public Lab02()
+        {
+            InitializeComponent();
+        }
+
+        private void btnBai01_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBai02_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBai03_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBai04_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBai05_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBai06_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnBai07_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
