@@ -52,6 +52,18 @@
     <Compile Include="Lab02-Bai01\Lab02-Bai01.Designer.cs">
       <DependentUpon>Lab02-Bai01.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab02-Bai02\Lab02-Bai02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab02-Bai02\Lab02-Bai02.Designer.cs">
+      <DependentUpon>Lab02-Bai02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab02-Bai03\Lab02-Bai03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab02-Bai03\Lab02-Bai03.Designer.cs">
+      <DependentUpon>Lab02-Bai03.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab02-MainForm\Lab02.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Lab02-Bai01\Lab02-Bai01.resx">
       <DependentUpon>Lab02-Bai01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab02-Bai02\Lab02-Bai02.resx">
+      <DependentUpon>Lab02-Bai02.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab02-MainForm\Lab02.resx">
       <DependentUpon>Lab02.cs</DependentUpon>
@@ -87,6 +102,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lab02-Bai04\" />
+    <Folder Include="Lab02-Bai07\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

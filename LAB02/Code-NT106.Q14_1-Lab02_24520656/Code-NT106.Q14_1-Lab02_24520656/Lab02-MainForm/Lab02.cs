@@ -28,7 +28,10 @@ namespace Code_NT106.Q14_1_Lab02_24520656
 
         private void btnBai02_Click(object sender, EventArgs e)
         {
-
+            Lab02_Bai02 Bai02 = new Lab02_Bai02();
+            this.Hide();
+            Bai02.ShowDialog();
+            this.Close();
         }
 
         private void btnBai03_Click(object sender, EventArgs e)
