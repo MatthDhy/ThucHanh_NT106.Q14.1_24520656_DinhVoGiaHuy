@@ -1,6 +1,6 @@
-﻿namespace Code_NT106.Q14_1_Lab02_24520656
+﻿namespace Code_NT106.Q14_1_Lab02_24520656.Lab02_Bai01
 {
-    partial class Lab02_Bai01
+    partial class FormBai01
     {
         /// <summary>
         /// Required designer variable.

@@ -1,0 +1,38 @@
+[
+  {
+    "HoTen": "Nguyen Van A",
+    "MSSV": "24520001",
+    "DienThoai": "0912345678",
+    "Mon1": 8,
+    "Mon2": 7.5,
+    "Mon3": 9,
+    "DiemTB": 8.16666698
+  },
+  {
+    "HoTen": "Tran Thi B",
+    "MSSV": "24520002",
+    "DienThoai": "0987654321",
+    "Mon1": 6,
+    "Mon2": 8,
+    "Mon3": 7.5,
+    "DiemTB": 7.16666651
+  },
+  {
+    "HoTen": "Le Van C",
+    "MSSV": "24520003",
+    "DienThoai": "0901122334",
+    "Mon1": 9.5,
+    "Mon2": 8.5,
+    "Mon3": 9,
+    "DiemTB": 9
+  },
+  {
+    "HoTen": "Pham Thi D",
+    "MSSV": "24520004",
+    "DienThoai": "0977888999",
+    "Mon1": 5.5,
+    "Mon2": 6,
+    "Mon3": 7,
+    "DiemTB": 6.16666651
+  }
+]

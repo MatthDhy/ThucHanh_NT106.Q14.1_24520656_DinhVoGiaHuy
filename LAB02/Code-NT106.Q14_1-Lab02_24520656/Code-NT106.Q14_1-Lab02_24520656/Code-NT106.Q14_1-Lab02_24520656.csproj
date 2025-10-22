@@ -33,8 +33,39 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=9.0.0.10, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.9.0.10\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Pipelines, Version=9.0.0.10, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.9.0.10\lib\net462\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=9.0.0.10, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.9.0.10\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=9.0.0.10, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.9.0.10\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,23 +77,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lab02-Bai01\Lab02-Bai01.cs">
+    <Compile Include="Lab02-Bai01\FormBai01.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lab02-Bai01\Lab02-Bai01.Designer.cs">
-      <DependentUpon>Lab02-Bai01.cs</DependentUpon>
+    <Compile Include="Lab02-Bai01\FormBai01.Designer.cs">
+      <DependentUpon>FormBai01.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lab02-Bai02\Lab02-Bai02.cs">
+    <Compile Include="Lab02-Bai02\FormBai02.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lab02-Bai02\Lab02-Bai02.Designer.cs">
-      <DependentUpon>Lab02-Bai02.cs</DependentUpon>
+    <Compile Include="Lab02-Bai02\FormBai02.Designer.cs">
+      <DependentUpon>FormBai02.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lab02-Bai03\Lab02-Bai03.cs">
+    <Compile Include="Lab02-Bai03\FormBai03.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lab02-Bai03\Lab02-Bai03.Designer.cs">
-      <DependentUpon>Lab02-Bai03.cs</DependentUpon>
+    <Compile Include="Lab02-Bai03\FormBai03.Designer.cs">
+      <DependentUpon>FormBai03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab02-Bai04\FormBai04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab02-Bai04\FormBai04.Designer.cs">
+      <DependentUpon>FormBai04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab02-Bai07\FormBai07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab02-Bai07\FormBai07.Designer.cs">
+      <DependentUpon>FormBai07.cs</DependentUpon>
     </Compile>
     <Compile Include="Lab02-MainForm\Lab02.cs">
       <SubType>Form</SubType>
@@ -72,11 +115,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Lab02-Bai01\Lab02-Bai01.resx">
-      <DependentUpon>Lab02-Bai01.cs</DependentUpon>
+    <EmbeddedResource Include="Lab02-Bai01\FormBai01.resx">
+      <DependentUpon>FormBai01.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lab02-Bai02\Lab02-Bai02.resx">
-      <DependentUpon>Lab02-Bai02.cs</DependentUpon>
+    <EmbeddedResource Include="Lab02-Bai02\FormBai02.resx">
+      <DependentUpon>FormBai02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab02-Bai03\FormBai03.resx">
+      <DependentUpon>FormBai03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab02-Bai04\FormBai04.resx">
+      <DependentUpon>FormBai04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab02-Bai07\FormBai07.resx">
+      <DependentUpon>FormBai07.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab02-MainForm\Lab02.resx">
       <DependentUpon>Lab02.cs</DependentUpon>
@@ -90,6 +142,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -103,9 +156,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Lab02-Bai04\" />
-    <Folder Include="Lab02-Bai07\" />
+    <Content Include="Lab02-Bai01\input1.txt" />
+    <Content Include="Lab02-Bai02\input2.txt" />
+    <Content Include="Lab02-Bai03\input3.txt" />
+    <Content Include="Lab02-Bai04\input4.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

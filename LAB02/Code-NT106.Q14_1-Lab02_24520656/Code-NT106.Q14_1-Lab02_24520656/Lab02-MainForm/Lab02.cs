@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Code_NT106.Q14_1_Lab02_24520656
 {
     public partial class Lab02 : Form
@@ -19,29 +20,35 @@ namespace Code_NT106.Q14_1_Lab02_24520656
 
         private void btnBai01_Click(object sender, EventArgs e)
         {
-            Lab02_Bai01 Bai01 = new Lab02_Bai01();
+            Lab02_Bai01.FormBai01 Bai01 = new Lab02_Bai01.FormBai01();
             this.Hide();
             Bai01.ShowDialog();
-            this.Close();
+            this.Show();
 
         }
 
         private void btnBai02_Click(object sender, EventArgs e)
         {
-            Lab02_Bai02 Bai02 = new Lab02_Bai02();
+            Lab02_Bai02.FormBai02 Bai02 = new Lab02_Bai02.FormBai02();
             this.Hide();
             Bai02.ShowDialog();
-            this.Close();
+            this.Show();
         }
 
         private void btnBai03_Click(object sender, EventArgs e)
         {
-
+            Lab02_Bai03.FormBai03 Bai03 = new Lab02_Bai03.FormBai03();
+            this.Hide();   
+            Bai03.ShowDialog();
+            this.Show();
         }
 
         private void btnBai04_Click(object sender, EventArgs e)
         {
-
+            Lab02_Bai04.FormBai04 Bai04 = new Lab02_Bai04.FormBai04();
+            this.Hide();
+            Bai04.ShowDialog();
+            this.Show();
         }
 
         private void btnBai05_Click(object sender, EventArgs e)
@@ -56,7 +63,10 @@ namespace Code_NT106.Q14_1_Lab02_24520656
 
         private void btnBai07_Click(object sender, EventArgs e)
         {
-
+            Lab02_Bai07.FormBai07 Bai07 = new Lab02_Bai07.FormBai07();
+            this.Hide();
+            Bai07.ShowDialog();
+            this.Show();
         }
     }
 }

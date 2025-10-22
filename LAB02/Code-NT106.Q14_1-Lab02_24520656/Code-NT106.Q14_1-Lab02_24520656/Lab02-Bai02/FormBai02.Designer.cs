@@ -1,6 +1,6 @@
 ﻿namespace Code_NT106.Q14_1_Lab02_24520656.Lab02_Bai02
 {
-    partial class Lab02_Bai02
+    partial class FormBai02
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.btnReadFile = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.rtbContent = new System.Windows.Forms.RichTextBox();
             this.labelFilename = new System.Windows.Forms.Label();
             this.labelSize = new System.Windows.Forms.Label();
             this.labelURL = new System.Windows.Forms.Label();
@@ -54,6 +54,7 @@
             this.btnReadFile.TabIndex = 0;
             this.btnReadFile.Text = "Read From File";
             this.btnReadFile.UseVisualStyleBackColor = true;
+            this.btnReadFile.Click += new System.EventHandler(this.btnReadFile_Click);
             // 
             // btnExit
             // 
@@ -64,14 +65,15 @@
             this.btnExit.TabIndex = 1;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // richTextBox1
+            // rtbContent
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(435, 55);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(317, 402);
-            this.richTextBox1.TabIndex = 2;
-            this.richTextBox1.Text = "";
+            this.rtbContent.Location = new System.Drawing.Point(472, 55);
+            this.rtbContent.Name = "rtbContent";
+            this.rtbContent.Size = new System.Drawing.Size(317, 402);
+            this.rtbContent.TabIndex = 2;
+            this.rtbContent.Text = "";
             // 
             // labelFilename
             // 
@@ -135,62 +137,75 @@
             // 
             // textBoxFileName
             // 
+            this.textBoxFileName.BackColor = System.Drawing.SystemColors.HighlightText;
             this.textBoxFileName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBoxFileName.ForeColor = System.Drawing.Color.LightGray;
             this.textBoxFileName.Location = new System.Drawing.Point(224, 138);
             this.textBoxFileName.Name = "textBoxFileName";
             this.textBoxFileName.ReadOnly = true;
-            this.textBoxFileName.Size = new System.Drawing.Size(158, 30);
+            this.textBoxFileName.Size = new System.Drawing.Size(205, 30);
             this.textBoxFileName.TabIndex = 9;
             // 
             // textBoxSize
             // 
+            this.textBoxSize.BackColor = System.Drawing.SystemColors.HighlightText;
             this.textBoxSize.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBoxSize.ForeColor = System.Drawing.Color.LightGray;
             this.textBoxSize.Location = new System.Drawing.Point(224, 181);
             this.textBoxSize.Name = "textBoxSize";
             this.textBoxSize.ReadOnly = true;
-            this.textBoxSize.Size = new System.Drawing.Size(158, 30);
+            this.textBoxSize.Size = new System.Drawing.Size(205, 30);
             this.textBoxSize.TabIndex = 10;
             // 
             // textBoxLineCount
             // 
+            this.textBoxLineCount.BackColor = System.Drawing.SystemColors.HighlightText;
             this.textBoxLineCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBoxLineCount.ForeColor = System.Drawing.Color.LightGray;
             this.textBoxLineCount.Location = new System.Drawing.Point(224, 270);
             this.textBoxLineCount.Name = "textBoxLineCount";
             this.textBoxLineCount.ReadOnly = true;
-            this.textBoxLineCount.Size = new System.Drawing.Size(158, 30);
+            this.textBoxLineCount.Size = new System.Drawing.Size(205, 30);
             this.textBoxLineCount.TabIndex = 12;
             // 
             // textBoxURL
             // 
+            this.textBoxURL.BackColor = System.Drawing.SystemColors.HighlightText;
             this.textBoxURL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBoxURL.ForeColor = System.Drawing.Color.LightGray;
             this.textBoxURL.Location = new System.Drawing.Point(224, 228);
             this.textBoxURL.Name = "textBoxURL";
             this.textBoxURL.ReadOnly = true;
-            this.textBoxURL.Size = new System.Drawing.Size(158, 30);
+            this.textBoxURL.Size = new System.Drawing.Size(205, 30);
             this.textBoxURL.TabIndex = 11;
             // 
             // textBoxCharacterCount
             // 
+            this.textBoxCharacterCount.BackColor = System.Drawing.SystemColors.HighlightText;
             this.textBoxCharacterCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBoxCharacterCount.ForeColor = System.Drawing.Color.LightGray;
             this.textBoxCharacterCount.Location = new System.Drawing.Point(224, 352);
             this.textBoxCharacterCount.Name = "textBoxCharacterCount";
             this.textBoxCharacterCount.ReadOnly = true;
-            this.textBoxCharacterCount.Size = new System.Drawing.Size(158, 30);
+            this.textBoxCharacterCount.Size = new System.Drawing.Size(205, 30);
             this.textBoxCharacterCount.TabIndex = 14;
             // 
             // textBoxWordCount
             // 
+            this.textBoxWordCount.BackColor = System.Drawing.SystemColors.HighlightText;
             this.textBoxWordCount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBoxWordCount.ForeColor = System.Drawing.Color.LightGray;
             this.textBoxWordCount.Location = new System.Drawing.Point(224, 313);
             this.textBoxWordCount.Name = "textBoxWordCount";
             this.textBoxWordCount.ReadOnly = true;
-            this.textBoxWordCount.Size = new System.Drawing.Size(158, 30);
+            this.textBoxWordCount.Size = new System.Drawing.Size(205, 30);
             this.textBoxWordCount.TabIndex = 13;
             // 
-            // Lab02_Bai02
+            // FormBai02
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(801, 637);
             this.Controls.Add(this.textBoxCharacterCount);
             this.Controls.Add(this.textBoxWordCount);
@@ -204,10 +219,10 @@
             this.Controls.Add(this.labelURL);
             this.Controls.Add(this.labelSize);
             this.Controls.Add(this.labelFilename);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.rtbContent);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReadFile);
-            this.Name = "Lab02_Bai02";
+            this.Name = "FormBai02";
             this.Text = "Lab02_Bai02";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -218,7 +233,7 @@
 
         private System.Windows.Forms.Button btnReadFile;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox rtbContent;
         private System.Windows.Forms.Label labelFilename;
         private System.Windows.Forms.Label labelSize;
         private System.Windows.Forms.Label labelURL;
