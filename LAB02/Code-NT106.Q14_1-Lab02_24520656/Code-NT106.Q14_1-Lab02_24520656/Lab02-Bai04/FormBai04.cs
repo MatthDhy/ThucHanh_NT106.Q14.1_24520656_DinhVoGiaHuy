@@ -65,29 +65,37 @@ namespace Code_NT106.Q14_1_Lab02_24520656.Lab02_Bai04
         {
             try
             {
+                // 🔹 Ghi toàn bộ danh sách xuống file
                 string folder = GetFolderPath();
-                string input = Path.Combine(folder, "input4.txt");
+                string inputPath = Path.Combine(folder, "input4.txt");
+
                 string json = JsonSerializer.Serialize(danhSach, new JsonSerializerOptions { WriteIndented = true });
-                File.WriteAllText(input, json);
-                MessageBox.Show("✅ Đã ghi danh sách vào file input4.txt!\nVị trí: " + input);
+                File.WriteAllText(inputPath, json);
+
+                MessageBox.Show("💾 Đã lưu toàn bộ danh sách vào file input4.txt!\nVị trí: " + inputPath);
             }
             catch (Exception ex)
             {
-                MessageBox.Show("❌ Lỗi ghi file: " + ex.Message);
+                MessageBox.Show("❌ Lỗi khi ghi file: " + ex.Message);
             }
         }
+
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
             try
             {
-                string ten = textBoxName2.Text.Trim();
-                string mssv = textBoxID2.Text.Trim();
-                string sdt = textBoxPhone2.Text.Trim();
-                float d1 = float.Parse(textBoxcourse1_2.Text);
-                float d2 = float.Parse(textBoxcourse2_2.Text);
-                float d3 = float.Parse(textBoxcourse3_2.Text);
+                // 🔹 Lấy dữ liệu từ các textbox bên TRÁI
+                string ten = textboxName1.Text.Trim();
+                string mssv = textboxID1.Text.Trim();
+                string sdt = textBoxPhone1.Text.Trim();
+                float d1 = float.Parse(textBoxcourse1_1.Text);
+                float d2 = float.Parse(textBoxcourse2_1.Text);
+                float d3 = float.Parse(textBoxcourse3_1.Text);
 
+                // 🔍 Kiểm tra dữ liệu
+                if (string.IsNullOrEmpty(ten))
+                    throw new Exception("❌ Họ tên không được để trống!");
                 if (!Regex.IsMatch(mssv, @"^\d{8}$"))
                     throw new Exception("❌ MSSV phải gồm 8 chữ số!");
                 if (!Regex.IsMatch(sdt, @"^0\d{9}$"))
@@ -95,23 +103,28 @@ namespace Code_NT106.Q14_1_Lab02_24520656.Lab02_Bai04
                 if (d1 < 0 || d1 > 10 || d2 < 0 || d2 > 10 || d3 < 0 || d3 > 10)
                     throw new Exception("❌ Điểm phải nằm trong khoảng [0,10].");
 
+                // 🔹 Tạo sinh viên mới và thêm vào danh sách
                 var sv = new SinhVien(ten, mssv, sdt, d1, d2, d3);
                 sv.TinhDiemTB();
                 danhSach.Add(sv);
 
-                MessageBox.Show("✅ Thêm sinh viên thành công!");
+                // 🔹 Cập nhật giao diện hiển thị
                 rtb.Text = JsonSerializer.Serialize(danhSach, new JsonSerializerOptions { WriteIndented = true });
-                clearinput();
+                MessageBox.Show("✅ Đã thêm sinh viên mới vào danh sách (chưa lưu file).");
+
+                // 🔹 Xoá dữ liệu nhập cũ
+                ClearLeft();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("❌ Lỗi: " + ex.Message);
+                MessageBox.Show("❌ Lỗi khi thêm: " + ex.Message);
             }
         }
 
 
+
         // ------------------- Hỗ trợ giao diện -------------------
-        
+
 
         private void ClearLeft()
         {

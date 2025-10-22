@@ -34,5 +34,14 @@
     "Mon2": 6,
     "Mon3": 7,
     "DiemTB": 6.16666651
+  },
+  {
+    "HoTen": "Dinh Vo Gia Huy",
+    "MSSV": "24520656",
+    "DienThoai": "0901433795",
+    "Mon1": 5,
+    "Mon2": 5,
+    "Mon3": 5,
+    "DiemTB": 5
   }
 ]

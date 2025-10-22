@@ -1,0 +1,25 @@
+﻿CREATE TABLE IF NOT EXISTS NguoiDung (
+    IDNCC INTEGER PRIMARY KEY,
+    HoVaTen TEXT NOT NULL,
+    QuyenHan TEXT
+);
+
+CREATE TABLE IF NOT EXISTS MonAn (
+    IDMA INTEGER PRIMARY KEY,
+    TenMonAn TEXT NOT NULL,
+    HinhAnh TEXT,
+    IDNCC INTEGER,
+    FOREIGN KEY(IDNCC) REFERENCES NguoiDung(IDNCC)
+);
+
+INSERT INTO NguoiDung (HoVaTen, QuyenHan) VALUES
+('Huy Đinh', 'Admin'),
+('Ngọc Anh', 'User'),
+('Tuấn Minh', 'User');
+
+INSERT INTO MonAn (TenMonAn, HinhAnh, IDNCC) VALUES
+('Cơm tấm sườn bì chả', 'comtam.jpg', 1),
+('Bún bò Huế', 'bunbo.jpg', 2),
+('Phở bò tái nạm', 'pho.jpg', 3),
+('Mì quảng trứng', 'miquang.jpg', 2),
+('Cơm chiên hải sản', 'comchien.jpg', 1);

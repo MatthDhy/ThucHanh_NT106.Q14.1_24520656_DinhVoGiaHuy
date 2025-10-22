@@ -41,6 +41,9 @@
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=2.0.2.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.2.0.2\lib\net471\System.Data.SQLite.dll</HintPath>
+    </Reference>
     <Reference Include="System.IO.Pipelines, Version=9.0.0.10, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IO.Pipelines.9.0.10\lib\net462\System.IO.Pipelines.dll</HintPath>
     </Reference>
@@ -63,6 +66,7 @@
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="System.Transactions" />
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
@@ -101,6 +105,18 @@
     <Compile Include="Lab02-Bai04\FormBai04.Designer.cs">
       <DependentUpon>FormBai04.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lab02-Bai05\FormBai05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab02-Bai05\FormBai05.Designer.cs">
+      <DependentUpon>FormBai05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab02-Bai06\FormBai06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab02-Bai06\FormBai06.Designer.cs">
+      <DependentUpon>FormBai06.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab02-Bai07\FormBai07.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +143,12 @@
     <EmbeddedResource Include="Lab02-Bai04\FormBai04.resx">
       <DependentUpon>FormBai04.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lab02-Bai05\FormBai05.resx">
+      <DependentUpon>FormBai05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab02-Bai06\FormBai06.resx">
+      <DependentUpon>FormBai06.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab02-Bai07\FormBai07.resx">
       <DependentUpon>FormBai07.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,6 +164,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Lab02-Bai06\monan.db" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -162,6 +185,7 @@
     <Content Include="Lab02-Bai02\input2.txt" />
     <Content Include="Lab02-Bai03\input3.txt" />
     <Content Include="Lab02-Bai04\input4.txt" />
+    <Content Include="Lab02-Bai05\input5.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

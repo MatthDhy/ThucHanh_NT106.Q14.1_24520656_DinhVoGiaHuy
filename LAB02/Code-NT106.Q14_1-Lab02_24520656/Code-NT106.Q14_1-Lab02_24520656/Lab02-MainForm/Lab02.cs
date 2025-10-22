@@ -53,12 +53,18 @@ namespace Code_NT106.Q14_1_Lab02_24520656
 
         private void btnBai05_Click(object sender, EventArgs e)
         {
-
+            Lab02_Bai05.FormBai05 Bai05 = new Lab02_Bai05.FormBai05();
+            this.Hide();
+            Bai05.ShowDialog();
+            this.Show();
         }
 
         private void btnBai06_Click(object sender, EventArgs e)
         {
-
+            Lab02_Bai06.FormBai06 Bai06 = new Lab02_Bai06.FormBai06();
+            this.Hide();
+            Bai06.ShowDialog();
+            this.Show();
         }
 
         private void btnBai07_Click(object sender, EventArgs e)
